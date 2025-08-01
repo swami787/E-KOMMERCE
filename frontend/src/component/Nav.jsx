@@ -157,7 +157,7 @@ function Nav() {
           <div className="bg-gradient-to-r from-cyan-600 to-teal-600 w-8 h-8 rounded-full flex items-center justify-center">
             <span className="text-white font-bold text-lg">O</span>
           </div>
-          <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-700 to-teal-700 bg-clip-text text-transparent">OneCart</h1>
+          <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-700 to-teal-700 bg-clip-text text-transparent">Zenuxs Store</h1>
         </div>
 
         {/* Desktop Navigation Links */}
