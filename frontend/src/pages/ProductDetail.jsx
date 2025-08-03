@@ -118,15 +118,15 @@ function ProductDetail() {
                     <div className='w-[90%] h-[1px] bg-slate-700'></div>
                     <div className='w-[80%] text-[16px] text-white'>
                         <p>100% Original Product.</p>
-                        <p>Cash on delivery is available on this product</p>
-                        <p>Easy return and exchange policy within 7 days</p>
+                        <p>Cash on delivery isn't available on this product</p>
+                        <p>No return and exchange policy</p>
                     </div>
                 </div>
             </div>
 
             {/* Product Description and Related Products */}
             <div className='w-[100%] min-h-[70vh] bg-gradient-to-l from-[#141414] to-[#0c2025] flex items-start justify-start flex-col overflow-x-hidden'>
-                <div className='flex px-[20px] mt-[90px] lg:ml-[80px] ml-[0px] lg:mt-[0px]'>
+                {/* <div className='flex px-[20px] mt-[90px] lg:ml-[80px] ml-[0px] lg:mt-[0px]'>
                     <p className='border px-5 py-3 text-sm text-white'>Description</p>
                     <p className='border px-5 py-3 text-sm text-white'>Reviews (124)</p>
                 </div>
@@ -135,7 +135,7 @@ function ProductDetail() {
                     <p className='w-[95%] h-[90%] flex items-center justify-center'>
                         Upgrade your wardrobe with this stylish slim-fit cotton shirt, available now on OneCart. Crafted from breathable, high-quality fabric, it offers all-day comfort and effortless style. Easy to maintain and perfect for any setting, this shirt is a must-have essential for those who value both fashion and function.
                     </p>
-                </div>
+                </div> */}
 
                 <RelatedProduct 
                     category={productData.category} 
