@@ -141,7 +141,7 @@ function Nav() {
   // Create navigation items with active state
   const navItems = useMemo(() => [
     { name: 'Home', path: '/', icon: <HomeIcon className={location.pathname === '/' ? "text-cyan-300" : "text-white"} /> },
-    { name: 'Collections', path: '/collection', icon: <CollectionIcon className={location.pathname === '/collection' ? "text-cyan-300" : "text-white"} /> },
+    { name: 'Collections', path: '/collections', icon: <CollectionIcon className={location.pathname === '/collection' ? "text-cyan-300" : "text-white"} /> },
     { name: 'Contact', path: '/contact', icon: <ContactIcon className={location.pathname === '/contact' ? "text-cyan-300" : "text-white"} /> },
   ], [location.pathname]);
 

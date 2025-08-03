@@ -297,7 +297,7 @@ function PlaceOrder() {
                     </div>
                     
                     <div className='w-[100%] h-[30vh] lg:h-[100px] flex items-start mt-[20px] lg:mt-[0px] justify-center gap-[50px]'>
-                        <button
+                        {/* <button
                             type='button'
                             onClick={() => setMethod('razorpay')}
                             className={`w-[150px] h-[50px] rounded-sm ${method === 'razorpay' ? 'border-[5px] border-blue-900 rounded-sm' : ''}`}
@@ -307,7 +307,7 @@ function PlaceOrder() {
                                 className='w-[100%] h-[100%] object-fill rounded-sm'
                                 alt="Razorpay"
                             />
-                        </button>
+                        </button> */}
                         
                         {/* <button
                             type='button'
