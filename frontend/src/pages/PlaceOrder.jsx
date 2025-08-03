@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import Title from '../component/Title'
 import CartTotal from '../component/CartTotal'
-import razorpay from '../assets/Razorpay.jpg'
+import razorpay from '../assets/Razorpay copy.jpg'
 import { shopDataContext } from '../context/ShopContext'
 import { authDataContext } from '../context/authContext'
 import axios from 'axios'
@@ -174,7 +174,7 @@ function PlaceOrder() {
         </div>
         <div className='w-[100%] h-[30vh] lg:h-[100px] flex items-start mt-[20px] lg:mt-[0px] justify-center gap-[50px]'>
         <button onClick={()=>setMethod('razorpay')} className={`w-[150px] h-[50px] rounded-sm  ${method === 'razorpay' ? 'border-[5px] border-blue-900 rounded-sm' : ''}`}> <img src={razorpay} className='w-[100%] h-[100%] object-fill rounded-sm ' alt="" /></button>
-        <button onClick={()=>setMethod('cod')} className={`w-[200px] h-[50px] bg-gradient-to-t from-[#95b3f8] to-[white] text-[14px] px-[20px] rounded-sm text-[#332f6f] font-bold ${method === 'cod' ? 'border-[5px] border-blue-900 rounded-sm' : ''}`}>CASH ON DELIVERY </button>
+        {/* <button onClick={()=>setMethod('cod')} className={`w-[200px] h-[50px] bg-gradient-to-t from-[#95b3f8] to-[white] text-[14px] px-[20px] rounded-sm text-[#332f6f] font-bold ${method === 'cod' ? 'border-[5px] border-blue-900 rounded-sm' : ''}`}>CASH ON DELIVERY </button> */}
         </div>
             </div>
         </div>
