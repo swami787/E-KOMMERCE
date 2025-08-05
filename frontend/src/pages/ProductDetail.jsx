@@ -137,7 +137,7 @@ function ProductDetail() {
                     </p>
                 </div> */}
 
-                <RelatedProduct 
+                <RelatedProduct
                     category={productData.category} 
                     subCategory={productData.subCategory} 
                     currentProductId={productData._id}
